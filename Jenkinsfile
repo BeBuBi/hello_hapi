@@ -2,7 +2,7 @@
 
 pipeline {
 
-    any {
+    agent {
         docker {
             image 'node'
             args '-u root'
